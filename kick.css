@@ -1,12 +1,34 @@
 
 h1{
-    background-color: darkgreen;
-    border: 2px solid darkkhaki;
-    color: rgb(143, 142, 201);
+    background-color: #2C3E50;
+    border: 2px solid #3498DB;
+    color: #FFFFFF;
 }
 
 table, th, td{
 
-    border: 2px solid black;
+    border: 2px solid #333333;
     border-collapse: collapse;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #585858;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #464646;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.content {
+    text-align: center;
 }
